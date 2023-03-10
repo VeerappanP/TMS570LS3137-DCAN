@@ -1,0 +1,167 @@
+/** @file sys_main.c 
+*   @brief Application main file
+*   @date 11-Dec-2018
+*   @version 04.07.01
+*
+*   This file contains an empty main function,
+*   which can be used for the application.
+*/
+
+/* 
+* Copyright (C) 2009-2018 Texas Instruments Incorporated - www.ti.com 
+* 
+* 
+*  Redistribution and use in source and binary forms, with or without 
+*  modification, are permitted provided that the following conditions 
+*  are met:
+*
+*    Redistributions of source code must retain the above copyright 
+*    notice, this list of conditions and the following disclaimer.
+*
+*    Redistributions in binary form must reproduce the above copyright
+*    notice, this list of conditions and the following disclaimer in the 
+*    documentation and/or other materials provided with the   
+*    distribution.
+*
+*    Neither the name of Texas Instruments Incorporated nor the names of
+*    its contributors may be used to endorse or promote products derived
+*    from this software without specific prior written permission.
+*
+*  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 
+*  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT 
+*  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+*  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT 
+*  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+*  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT 
+*  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+*  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+*  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
+*  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+*  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*
+*/
+
+
+/* USER CODE BEGIN (0) */
+/* USER CODE END */
+
+/* Include Files */
+
+#include "sys_common.h"
+#include "can.h"
+#include "sci.h"
+
+/* USER CODE BEGIN (1) */
+/* USER CODE END */
+
+/** @fn void main(void)
+*   @brief Application main function
+*   @note This function is empty by default.
+*
+*   This function is called after startup.
+*   The user can use this function to implement the application.
+*/
+
+/* USER CODE BEGIN (2) */
+/* USER CODE END */
+//uint8  data[22U]={0x01U,0x02U,0x03U,0x04U,0x54U,0x23U,0x61U,0x20,0xAB,0xCD,0xFD,0xFF,0xBA,0xCF,0xEA,0xDA,0x45U,0x34U,0x67U,0x98U,0x54U,0x23U};
+
+//uint8  data[22U]={0x45U,0x34U,0x67U,0x98U,0x54U,0x23U,0x61U,0x20,0xAB,0xCD,0xFD,0xFF,0xBA,0xCF,0xEA,0xDA,0x45U,0x34U,0x67U,0x98U,0x54U,0x23U};
+ uint8	data[];
+ uint8 data1[];
+
+
+uint8 length_byte[4U];
+
+int main(void)
+{
+    sciInit();
+    canInit();
+
+
+/* USER CODE BEGIN (3) */
+    uint32 i=0;
+    uint32 bytecount=0;
+//    uint32 j=0;
+    uint32 length=0;
+////    uint32       bitIndex = 1U << ((canMESSAGE_BOX2 - 1U) & 0x1FU);
+//
+    for(i=0;i<(length+1);i++){
+    while(!(sciREG->FLR & (uint32)0x00000200));
+    data[i]=sciREG->RD;
+    length++;
+    if(data[i]==0x0D){
+        length--;
+        break;
+       }
+    }
+    while(1){
+        length_byte_splitter(length);
+        while((canREG1->TXRQx[0] & (1U << ((canMESSAGE_BOX3 - 1U) & 0x1FU))) != 0U);
+        canTransmit(canREG1, canMESSAGE_BOX3, &length_byte[0]);
+        while((canREG1->TXRQx[0] & (1U << ((canMESSAGE_BOX3 - 1U) & 0x1FU))) != 0U);
+
+        bytecount=0;
+        for(i=0;i<22;i=bytecount*8){
+        while((canREG1->TXRQx[0] & (1U << ((canMESSAGE_BOX1 - 1U) & 0x1FU))) != 0U);
+        canTransmit(canREG1, canMESSAGE_BOX1, &data[i]);
+        while((canREG1->TXRQx[0] & (1U << ((canMESSAGE_BOX1 - 1U) & 0x1FU))) == 0U);
+        bytecount++;
+
+       }
+}
+//    }
+}
+//    length_byte_splitter(length);
+//       canTransmit(canREG1, canMESSAGE_BOX3, &length_byte[0]);
+//
+
+//    bytecount =0;
+//    for (i=0;i<length;i=bytecount*8){
+//    while(((canREG1->NWDATx[0U] & bitIndex)==0));
+//    canGetData(canREG1, canMESSAGE_BOX2, &data1[i]);
+//    }
+//   for(i=0;i<length;i++){
+//        while ((sciREG->FLR & (uint32)SCI_TX_INT) == 0U);
+//        sciREG->TD = data1[i];
+//    }
+//    for (i=0;i<10000000;i++);
+//        for (i=0;i<10000000;i++);
+//    }
+
+//    for (i=0;i<10000000;i++);
+//    for (i=0;i<10000000;i++);
+//    canSendRemoteFrame(canREG1, canMESSAGE_BOX1);
+//    for (i=0;i<10000000;i++);
+//    for (i=0;i<10000000;i++);
+//    }
+//    }
+/* USER CODE END */
+
+
+//}
+
+void length_byte_splitter( uint32 length1){
+
+    uint32 i;
+    uint32 as = 0xFF;
+    uint8 shift = 0;
+    for(i=0;i<4;i++){
+        length_byte[i] = (length1 & as)>>shift;
+        shift += 8;
+        as = as << 8;
+     }
+}
+//    uint8 byte1 = le & 0xF;
+//    uint8 byte2 = (le & 0xF0)>>4;
+//    uint8 byte3 = (le & 0xF00)>>8;
+//    uint8 byte4 = (le & 0xF000)>>12;
+//    uint8 byte5 = (le & 0xF0000)>>16;
+//    uint8 byte6 = (le & 0xF00000)>>20;
+//    uint8 byte7 = (le & 0xF000000)>>24;
+//    uint8 byte8 = (le & 0xF0000000)>>28;
+//}
+
+
+/* USER CODE BEGIN (4) */
+/* USER CODE END */

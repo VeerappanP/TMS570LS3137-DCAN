@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project DCAN Reception Data Frame ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'DCAN Reception Data Frame.out' is up to date.
+
+**** Build Finished ****

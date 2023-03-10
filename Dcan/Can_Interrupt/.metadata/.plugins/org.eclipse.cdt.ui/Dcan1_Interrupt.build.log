@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project Dcan1_Interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can_Interrupt/Dcan1_Interrupt" --include_path="E:/TMS570LS3137/Can_Interrupt/Dcan1_Interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Dcan1_Interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Dcan1_Interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Dcan1_Interrupt_linkInfo.xml" --rom_model --be32 -o "Dcan1_Interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Dcan1_Interrupt.out"
+ 
+
+**** Build Finished ****

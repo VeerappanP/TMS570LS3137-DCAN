@@ -1,0 +1,151 @@
+******************************************************************************
+                  TI ARM Linker PC v20.2.7                     
+******************************************************************************
+>> Linked Fri Feb 17 14:25:24 2023
+
+OUTPUT FILE NAME:   <Samp.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 00000078
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  VECTORS               00000000   00000020  00000000  00000020     X
+  FLASH0                00000020   0017ffe0  0000091c  0017f6c4  R  X
+  FLASH1                00180000   00180000  00000000  00180000  R  X
+  STACKS                08000000   00001500  00000000  00001500  RW  
+  RAM                   08001500   0003eb00  00000000  0003eb00  RW  
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+00000020    00000020    0000011c   0000011c    r-x
+  00000020    00000020    0000011c   0000011c    r-x .text
+00000140    00000140    00000800   00000000    rw-
+  00000140    00000140    00000800   00000000    rw- .stack
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.text      0    00000020    0000011c     
+                  00000020    00000058     main.obj (.text)
+                  00000078    00000054     rtsv7R4_T_be_v3D16_eabi.lib : boot_non_cortex_m.asm.obj (.text)
+                  000000cc    00000044                                 : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit:__TI_auto_init_nobinit_nopinit)
+                  00000110    00000018                                 : args_main.c.obj (.text:_args_main)
+                  00000128    00000004                                 : pre_init.c.obj (.text:_system_pre_init)
+                  0000012c    00000004                                 : exit.c.obj (.text:abort:abort)
+                  00000130    00000002                                 : mpu_init.c.obj (.text:__mpu_init)
+                  00000132    00000002     --HOLE-- [fill = 0]
+                  00000134    00000008     main.obj (.tramp.main.1)
+
+.cinit     0    00000020    00000000     UNINITIALIZED
+
+__llvm_prf_cnts 
+*          0    08001500    00000000     UNINITIALIZED
+
+.stack     0    00000140    00000800     UNINITIALIZED
+                  00000140    00000800     --HOLE--
+
+MODULE SUMMARY
+
+       Module                      code   ro data   rw data
+       ------                      ----   -------   -------
+    .\
+       main.obj                    96     0         0      
+    +--+---------------------------+------+---------+---------+
+       Total:                      96     0         0      
+                                                           
+    C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib/rtsv7R4_T_be_v3D16_eabi.lib
+       boot_non_cortex_m.asm.obj   84     0         0      
+       autoinit.c.obj              68     0         0      
+       args_main.c.obj             24     0         0      
+       exit.c.obj                  4      0         0      
+       pre_init.c.obj              4      0         0      
+       mpu_init.c.obj              2      0         0      
+    +--+---------------------------+------+---------+---------+
+       Total:                      186    0         0      
+                                                           
+       Stack:                      0      0         2048   
+    +--+---------------------------+------+---------+---------+
+       Grand Total:                282    0         2048   
+
+VENEERS
+
+callee name               veneer name
+   callee addr  veneer addr  call addr  call info
+--------------  -----------  ---------  ----------------
+main                      $Ven$TA$L$PI$$main
+   00000020     00000134     00000120   rtsv7R4_T_be_v3D16_eabi.lib : args_main.c.obj (.text:_args_main)
+
+[1 trampolines]
+[1 trampoline calls]
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address   name                          
+-------   ----                          
+0000012d  C$$EXIT                       
+00000940  __STACK_END                   
+00000800  __STACK_SIZE                  
+UNDEFED   __TI_CINIT_Base               
+UNDEFED   __TI_CINIT_Limit              
+UNDEFED   __TI_Handler_Table_Base       
+UNDEFED   __TI_Handler_Table_Limit      
+000000cd  __TI_auto_init_nobinit_nopinit
+ffffffff  __TI_pprof_out_hndl           
+ffffffff  __TI_prof_data_size           
+ffffffff  __TI_prof_data_start          
+00000020  __TI_static_base__            
+ffffffff  __binit__                     
+ffffffff  __c_args__                    
+00000131  __mpu_init                    
+00000140  __stack                       
+08001500  __start___llvm_prf_cnts       
+08001500  __stop___llvm_prf_cnts        
+00000111  _args_main                    
+00000078  _c_int00                      
+UNDEFED   _system_post_cinit            
+00000129  _system_pre_init              
+0000012d  abort                         
+ffffffff  binit                         
+00000020  main                          
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address   name                          
+-------   ----                          
+00000020  __TI_static_base__            
+00000020  main                          
+00000078  _c_int00                      
+000000cd  __TI_auto_init_nobinit_nopinit
+00000111  _args_main                    
+00000129  _system_pre_init              
+0000012d  C$$EXIT                       
+0000012d  abort                         
+00000131  __mpu_init                    
+00000140  __stack                       
+00000800  __STACK_SIZE                  
+00000940  __STACK_END                   
+08001500  __start___llvm_prf_cnts       
+08001500  __stop___llvm_prf_cnts        
+ffffffff  __TI_pprof_out_hndl           
+ffffffff  __TI_prof_data_size           
+ffffffff  __TI_prof_data_start          
+ffffffff  __binit__                     
+ffffffff  __c_args__                    
+ffffffff  binit                         
+UNDEFED   __TI_CINIT_Base               
+UNDEFED   __TI_CINIT_Limit              
+UNDEFED   __TI_Handler_Table_Base       
+UNDEFED   __TI_Handler_Table_Limit      
+UNDEFED   _system_post_cinit            
+
+[25 symbols]

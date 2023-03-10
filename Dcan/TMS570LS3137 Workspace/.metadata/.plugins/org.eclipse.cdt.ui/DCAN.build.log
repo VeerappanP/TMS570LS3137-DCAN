@@ -1,0 +1,24 @@
+
+**** Build of configuration Debug for project DCAN ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../Dcan/source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --opt_for_speed=0 --include_path="E:/TMS570LS3137/TMS570LS3137 Workspace/DCAN" --include_path="E:/TMS570LS3137/TMS570LS3137 Workspace/DCAN/Dcan/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="Dcan/source/sys_main.d_raw" --obj_directory="Dcan/source"  "../Dcan/source/sys_main.c"
+Finished building: "../Dcan/source/sys_main.c"
+ 
+Building target: "DCAN.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --opt_for_speed=0 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"DCAN.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="DCAN_linkInfo.xml" --rom_model --be32 -o "DCAN.out" "./main.obj" "./Dcan/source/adc.obj" "./Dcan/source/can.obj" "./Dcan/source/crc.obj" "./Dcan/source/dabort.obj" "./Dcan/source/dcc.obj" "./Dcan/source/dmm.obj" "./Dcan/source/emac.obj" "./Dcan/source/emif.obj" "./Dcan/source/errata_SSWF021_45.obj" "./Dcan/source/esm.obj" "./Dcan/source/gio.obj" "./Dcan/source/het.obj" "./Dcan/source/i2c.obj" "./Dcan/source/lin.obj" "./Dcan/source/mdio.obj" "./Dcan/source/mibspi.obj" "./Dcan/source/notification.obj" "./Dcan/source/phy_dp83640.obj" "./Dcan/source/pinmux.obj" "./Dcan/source/pom.obj" "./Dcan/source/rti.obj" "./Dcan/source/rtp.obj" "./Dcan/source/sci.obj" "./Dcan/source/spi.obj" "./Dcan/source/sys_core.obj" "./Dcan/source/sys_dma.obj" "./Dcan/source/sys_intvecs.obj" "./Dcan/source/sys_main.obj" "./Dcan/source/sys_mpu.obj" "./Dcan/source/sys_pcr.obj" "./Dcan/source/sys_phantom.obj" "./Dcan/source/sys_pmm.obj" "./Dcan/source/sys_pmu.obj" "./Dcan/source/sys_selftest.obj" "./Dcan/source/sys_startup.obj" "./Dcan/source/sys_vim.obj" "./Dcan/source/system.obj" "../Dcan/source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+error #10056: symbol "main" redefined: first defined in "./main.obj"; redefined in "./Dcan/source/sys_main.obj"
+error #10010: errors encountered during linking; "DCAN.out" not built
+ 
+>> Compilation failure
+makefile:180: recipe for target 'DCAN.out' failed
+gmake[1]: *** [DCAN.out] Error 1
+makefile:176: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****

@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project Samp ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../sys_pmu.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/TMS570LS3137 Workspace/Samp" --include_path="E:/TMS570LS3137/TMS570LS3137 Workspace/Samp" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="sys_pmu.d_raw"  "../sys_pmu.asm"
+Finished building: "../sys_pmu.asm"
+ 
+Building target: "Samp.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Samp.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Samp_linkInfo.xml" --rom_model --be32 -o "Samp.out" "./dabort.obj" "./main.obj" "./sys_core.obj" "./sys_mpu.obj" "./sys_pmu.obj" "../sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Samp.out"
+ 
+
+**** Build Finished ****

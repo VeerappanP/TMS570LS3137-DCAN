@@ -1,0 +1,1745 @@
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/adc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/adc.d_raw" --obj_directory="source"  "../source/adc.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/adc.obj' failed
+"../source/adc.c", line 53: fatal error #1965: cannot open source file "adc.h"
+1 catastrophic error detected in the compilation of "../source/adc.c".
+Compilation terminated.
+gmake: *** [source/adc.obj] Error 1
+Building file: "../source/can.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/can.d_raw" --obj_directory="source"  "../source/can.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/can.obj' failed
+Building file: "../source/crc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/crc.d_raw" --obj_directory="source"  "../source/crc.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/crc.obj' failed
+"../source/can.c", line 55: fatal error #1965: cannot open source file "can.h"
+1 catastrophic error detected in the compilation of "../source/can.c".
+Compilation terminated.
+gmake: *** [source/can.obj] Error 1
+"../source/crc.c", line 52: fatal error #1965: cannot open source file "crc.h"
+1 catastrophic error detected in the compilation of "../source/crc.c".
+Compilation terminated.
+gmake: *** [source/crc.obj] Error 1
+Building file: "../source/dcc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dcc.d_raw" --obj_directory="source"  "../source/dcc.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/dcc.obj' failed
+"../source/dcc.c", line 46: fatal error #1965: cannot open source file "dcc.h"
+1 catastrophic error detected in the compilation of "../source/dcc.c".
+Compilation terminated.
+gmake: *** [source/dcc.obj] Error 1
+Building file: "../source/dmm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dmm.d_raw" --obj_directory="source"  "../source/dmm.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/dmm.obj' failed
+"../source/dmm.c", line 46: fatal error #1965: cannot open source file "dmm.h"
+1 catastrophic error detected in the compilation of "../source/dmm.c".
+Compilation terminated.
+gmake: *** [source/dmm.obj] Error 1
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../source/dabort.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dabort.d_raw" --obj_directory="source"  "../source/dabort.asm"
+Finished building: "../source/dabort.asm"
+ 
+Building file: "../source/emac.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/emac.d_raw" --obj_directory="source"  "../source/emac.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/emac.obj' failed
+"../source/emac.c", line 48: fatal error #1965: cannot open source file "emac.h"
+1 catastrophic error detected in the compilation of "../source/emac.c".
+Compilation terminated.
+gmake: *** [source/emac.obj] Error 1
+Building file: "../source/emif.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/emif.d_raw" --obj_directory="source"  "../source/emif.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/emif.obj' failed
+"../source/emif.c", line 46: fatal error #1965: cannot open source file "emif.h"
+1 catastrophic error detected in the compilation of "../source/emif.c".
+Compilation terminated.
+gmake: *** [source/emif.obj] Error 1
+Building file: "../source/errata_SSWF021_45.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/errata_SSWF021_45.d_raw" --obj_directory="source"  "../source/errata_SSWF021_45.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/errata_SSWF021_45.obj' failed
+"../source/errata_SSWF021_45.c", line 40: fatal error #1965: cannot open source file "errata_SSWF021_45_defs.h"
+1 catastrophic error detected in the compilation of "../source/errata_SSWF021_45.c".
+Compilation terminated.
+gmake: *** [source/errata_SSWF021_45.obj] Error 1
+Building file: "../source/esm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/esm.d_raw" --obj_directory="source"  "../source/esm.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/esm.obj' failed
+"../source/esm.c", line 52: fatal error #1965: cannot open source file "esm.h"
+1 catastrophic error detected in the compilation of "../source/esm.c".
+Compilation terminated.
+gmake: *** [source/esm.obj] Error 1
+Building file: "../source/gio.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/gio.d_raw" --obj_directory="source"  "../source/gio.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/gio.obj' failed
+"../source/gio.c", line 46: fatal error #1965: cannot open source file "gio.h"
+1 catastrophic error detected in the compilation of "../source/gio.c".
+Compilation terminated.
+gmake: *** [source/gio.obj] Error 1
+Building file: "../source/het.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/het.d_raw" --obj_directory="source"  "../source/het.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/het.obj' failed
+"../source/het.c", line 43: fatal error #1965: cannot open source file "het.h"
+1 catastrophic error detected in the compilation of "../source/het.c".
+Compilation terminated.
+gmake: *** [source/het.obj] Error 1
+Building file: "../source/i2c.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/i2c.d_raw" --obj_directory="source"  "../source/i2c.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/i2c.obj' failed
+"../source/i2c.c", line 46: fatal error #1965: cannot open source file "i2c.h"
+1 catastrophic error detected in the compilation of "../source/i2c.c".
+Compilation terminated.
+gmake: *** [source/i2c.obj] Error 1
+Building file: "../source/mdio.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/mdio.d_raw" --obj_directory="source"  "../source/mdio.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/mdio.obj' failed
+"../source/mdio.c", line 49: fatal error #1965: cannot open source file "hw_reg_access.h"
+1 catastrophic error detected in the compilation of "../source/mdio.c".
+Compilation terminated.
+gmake: *** [source/mdio.obj] Error 1
+Building file: "../source/mibspi.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/mibspi.d_raw" --obj_directory="source"  "../source/mibspi.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/mibspi.obj' failed
+"../source/mibspi.c", line 46: fatal error #1965: cannot open source file "mibspi.h"
+1 catastrophic error detected in the compilation of "../source/mibspi.c".
+Compilation terminated.
+gmake: *** [source/mibspi.obj] Error 1
+Building file: "../source/notification.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/notification.obj' failed
+"../source/notification.c", line 51: fatal error #1965: cannot open source file "esm.h"
+1 catastrophic error detected in the compilation of "../source/notification.c".
+Compilation terminated.
+gmake: *** [source/notification.obj] Error 1
+Building file: "../source/phy_dp83640.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/phy_dp83640.d_raw" --obj_directory="source"  "../source/phy_dp83640.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/phy_dp83640.obj' failed
+"../source/phy_dp83640.c", line 47: fatal error #1965: cannot open source file "sys_common.h"
+1 catastrophic error detected in the compilation of "../source/phy_dp83640.c".
+Compilation terminated.
+gmake: *** [source/phy_dp83640.obj] Error 1
+Building file: "../source/pinmux.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pinmux.d_raw" --obj_directory="source"  "../source/pinmux.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/pinmux.obj' failed
+"../source/pinmux.c", line 45: fatal error #1965: cannot open source file "reg_system.h"
+1 catastrophic error detected in the compilation of "../source/pinmux.c".
+Compilation terminated.
+gmake: *** [source/pinmux.obj] Error 1
+Building file: "../source/pom.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pom.d_raw" --obj_directory="source"  "../source/pom.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/pom.obj' failed
+"../source/pom.c", line 47: fatal error #1965: cannot open source file "pom.h"
+1 catastrophic error detected in the compilation of "../source/pom.c".
+Compilation terminated.
+gmake: *** [source/pom.obj] Error 1
+Building file: "../source/rti.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/rti.d_raw" --obj_directory="source"  "../source/rti.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/rti.obj' failed
+"../source/rti.c", line 54: fatal error #1965: cannot open source file "rti.h"
+1 catastrophic error detected in the compilation of "../source/rti.c".
+Compilation terminated.
+gmake: *** [source/rti.obj] Error 1
+Building file: "../source/rtp.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/rtp.d_raw" --obj_directory="source"  "../source/rtp.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/rtp.obj' failed
+"../source/rtp.c", line 46: fatal error #1965: cannot open source file "rtp.h"
+1 catastrophic error detected in the compilation of "../source/rtp.c".
+Compilation terminated.
+gmake: *** [source/rtp.obj] Error 1
+Building file: "../source/sci.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sci.d_raw" --obj_directory="source"  "../source/sci.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/sci.obj' failed
+"../source/sci.c", line 46: fatal error #1965: cannot open source file "sci.h"
+1 catastrophic error detected in the compilation of "../source/sci.c".
+Compilation terminated.
+gmake: *** [source/sci.obj] Error 1
+Building file: "../source/spi.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/spi.d_raw" --obj_directory="source"  "../source/spi.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/spi.obj' failed
+"../source/spi.c", line 44: fatal error #1965: cannot open source file "spi.h"
+1 catastrophic error detected in the compilation of "../source/spi.c".
+Compilation terminated.
+gmake: *** [source/spi.obj] Error 1
+Building file: "../source/sys_dma.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_dma.d_raw" --obj_directory="source"  "../source/sys_dma.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/sys_dma.obj' failed
+"../source/sys_dma.c", line 44: fatal error #1965: cannot open source file "sys_dma.h"
+1 catastrophic error detected in the compilation of "../source/sys_dma.c".
+Compilation terminated.
+gmake: *** [source/sys_dma.obj] Error 1
+Building file: "../source/sys_core.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_core.d_raw" --obj_directory="source"  "../source/sys_core.asm"
+Finished building: "../source/sys_core.asm"
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 50: fatal error #1965: cannot open source file "sys_common.h"
+1 catastrophic error detected in the compilation of "../source/sys_main.c".
+Compilation terminated.
+gmake: *** [source/sys_main.obj] Error 1
+Building file: "../source/sys_intvecs.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_intvecs.d_raw" --obj_directory="source"  "../source/sys_intvecs.asm"
+Finished building: "../source/sys_intvecs.asm"
+ 
+Building file: "../source/sys_pcr.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pcr.d_raw" --obj_directory="source"  "../source/sys_pcr.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/sys_pcr.obj' failed
+"../source/sys_pcr.c", line 42: fatal error #1965: cannot open source file "sys_pcr.h"
+1 catastrophic error detected in the compilation of "../source/sys_pcr.c".
+Compilation terminated.
+gmake: *** [source/sys_pcr.obj] Error 1
+Building file: "../source/sys_mpu.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_mpu.d_raw" --obj_directory="source"  "../source/sys_mpu.asm"
+Finished building: "../source/sys_mpu.asm"
+ 
+Building file: "../source/sys_phantom.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_phantom.d_raw" --obj_directory="source"  "../source/sys_phantom.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/sys_phantom.obj' failed
+"../source/sys_phantom.c", line 45: fatal error #1965: cannot open source file "sys_common.h"
+1 catastrophic error detected in the compilation of "../source/sys_phantom.c".
+Compilation terminated.
+gmake: *** [source/sys_phantom.obj] Error 1
+Building file: "../source/sys_pmm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmm.d_raw" --obj_directory="source"  "../source/sys_pmm.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/sys_pmm.obj' failed
+"../source/sys_pmm.c", line 42: fatal error #1965: cannot open source file "sys_pmm.h"
+1 catastrophic error detected in the compilation of "../source/sys_pmm.c".
+Compilation terminated.
+gmake: *** [source/sys_pmm.obj] Error 1
+Building file: "../source/sys_selftest.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/sys_selftest.obj' failed
+"../source/sys_selftest.c", line 48: fatal error #1965: cannot open source file "sys_selftest.h"
+1 catastrophic error detected in the compilation of "../source/sys_selftest.c".
+Compilation terminated.
+gmake: *** [source/sys_selftest.obj] Error 1
+Building file: "../source/sys_startup.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/sys_startup.obj' failed
+"../source/sys_startup.c", line 57: fatal error #1965: cannot open source file "sys_common.h"
+1 catastrophic error detected in the compilation of "../source/sys_startup.c".
+Compilation terminated.
+gmake: *** [source/sys_startup.obj] Error 1
+Building file: "../source/sys_pmu.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmu.d_raw" --obj_directory="source"  "../source/sys_pmu.asm"
+Finished building: "../source/sys_pmu.asm"
+ 
+Building file: "../source/sys_vim.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_vim.d_raw" --obj_directory="source"  "../source/sys_vim.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/sys_vim.obj' failed
+"../source/sys_vim.c", line 44: fatal error #1965: cannot open source file "sys_vim.h"
+1 catastrophic error detected in the compilation of "../source/sys_vim.c".
+Compilation terminated.
+gmake: *** [source/sys_vim.obj] Error 1
+Building file: "../source/system.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/system.obj' failed
+"../source/system.c", line 53: fatal error #1965: cannot open source file "system.h"
+1 catastrophic error detected in the compilation of "../source/system.c".
+Compilation terminated.
+gmake: *** [source/system.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 clean -O 
+ 
+DEL /F  "Can Reception interrupt.hex"  "Can Reception interrupt.out" 
+DEL /F "main.obj" "source\adc.obj" "source\can.obj" "source\crc.obj" "source\dabort.obj" "source\dcc.obj" "source\dmm.obj" "source\emac.obj" "source\emif.obj" "source\errata_SSWF021_45.obj" "source\esm.obj" "source\gio.obj" "source\het.obj" "source\i2c.obj" "source\mdio.obj" "source\mibspi.obj" "source\notification.obj" "source\phy_dp83640.obj" "source\pinmux.obj" "source\pom.obj" "source\rti.obj" "source\rtp.obj" "source\sci.obj" "source\spi.obj" "source\sys_core.obj" "source\sys_dma.obj" "source\sys_intvecs.obj" "source\sys_main.obj" "source\sys_mpu.obj" "source\sys_pcr.obj" "source\sys_phantom.obj" "source\sys_pmm.obj" "source\sys_pmu.obj" "source\sys_selftest.obj" "source\sys_startup.obj" "source\sys_vim.obj" "source\system.obj" 
+DEL /F "main.d" "source\adc.d" "source\can.d" "source\crc.d" "source\dcc.d" "source\dmm.d" "source\emac.d" "source\emif.d" "source\errata_SSWF021_45.d" "source\esm.d" "source\gio.d" "source\het.d" "source\i2c.d" "source\mdio.d" "source\mibspi.d" "source\notification.d" "source\phy_dp83640.d" "source\pinmux.d" "source\pom.d" "source\rti.d" "source\rtp.d" "source\sci.d" "source\spi.d" "source\sys_dma.d" "source\sys_main.d" "source\sys_pcr.d" "source\sys_phantom.d" "source\sys_pmm.d" "source\sys_selftest.d" "source\sys_startup.d" "source\sys_vim.d" "source\system.d" 
+DEL /F "source\dabort.d" "source\sys_core.d" "source\sys_intvecs.d" "source\sys_mpu.d" "source\sys_pmu.d" 
+Could Not Find E:\TMS570LS3137\Can reception interrupt\Can Reception interrupt\Debug\Can Reception interrupt.hex
+Could Not Find E:\TMS570LS3137\Can reception interrupt\Can Reception interrupt\Debug\source\dabort.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../source/dabort.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dabort.d_raw" --obj_directory="source"  "../source/dabort.asm"
+Finished building: "../source/dabort.asm"
+ 
+Building file: "../source/crc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/crc.d_raw" --obj_directory="source"  "../source/crc.c"
+Finished building: "../source/crc.c"
+ 
+Building file: "../source/adc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/adc.d_raw" --obj_directory="source"  "../source/adc.c"
+Finished building: "../source/adc.c"
+ 
+Building file: "../source/can.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/can.d_raw" --obj_directory="source"  "../source/can.c"
+Finished building: "../source/can.c"
+ 
+Building file: "../source/dcc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dcc.d_raw" --obj_directory="source"  "../source/dcc.c"
+Finished building: "../source/dcc.c"
+ 
+Building file: "../source/dmm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dmm.d_raw" --obj_directory="source"  "../source/dmm.c"
+Finished building: "../source/dmm.c"
+ 
+Building file: "../source/emif.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/emif.d_raw" --obj_directory="source"  "../source/emif.c"
+Finished building: "../source/emif.c"
+ 
+Building file: "../source/errata_SSWF021_45.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/errata_SSWF021_45.d_raw" --obj_directory="source"  "../source/errata_SSWF021_45.c"
+Finished building: "../source/errata_SSWF021_45.c"
+ 
+Building file: "../source/emac.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/emac.d_raw" --obj_directory="source"  "../source/emac.c"
+Finished building: "../source/emac.c"
+ 
+Building file: "../source/esm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/esm.d_raw" --obj_directory="source"  "../source/esm.c"
+Finished building: "../source/esm.c"
+ 
+Building file: "../source/gio.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/gio.d_raw" --obj_directory="source"  "../source/gio.c"
+Finished building: "../source/gio.c"
+ 
+Building file: "../source/het.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/het.d_raw" --obj_directory="source"  "../source/het.c"
+Finished building: "../source/het.c"
+ 
+Building file: "../source/mdio.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/mdio.d_raw" --obj_directory="source"  "../source/mdio.c"
+Finished building: "../source/mdio.c"
+ 
+Building file: "../source/i2c.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/i2c.d_raw" --obj_directory="source"  "../source/i2c.c"
+Finished building: "../source/i2c.c"
+ 
+Building file: "../source/mibspi.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/mibspi.d_raw" --obj_directory="source"  "../source/mibspi.c"
+Finished building: "../source/mibspi.c"
+ 
+Building file: "../source/notification.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building file: "../source/phy_dp83640.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/phy_dp83640.d_raw" --obj_directory="source"  "../source/phy_dp83640.c"
+Finished building: "../source/phy_dp83640.c"
+ 
+Building file: "../source/pinmux.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pinmux.d_raw" --obj_directory="source"  "../source/pinmux.c"
+Finished building: "../source/pinmux.c"
+ 
+Building file: "../source/rti.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/rti.d_raw" --obj_directory="source"  "../source/rti.c"
+Finished building: "../source/rti.c"
+ 
+Building file: "../source/rtp.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/rtp.d_raw" --obj_directory="source"  "../source/rtp.c"
+Finished building: "../source/rtp.c"
+ 
+Building file: "../source/pom.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pom.d_raw" --obj_directory="source"  "../source/pom.c"
+Finished building: "../source/pom.c"
+ 
+Building file: "../source/spi.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/spi.d_raw" --obj_directory="source"  "../source/spi.c"
+Finished building: "../source/spi.c"
+ 
+Building file: "../source/sci.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sci.d_raw" --obj_directory="source"  "../source/sci.c"
+Finished building: "../source/sci.c"
+ 
+Building file: "../source/sys_core.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_core.d_raw" --obj_directory="source"  "../source/sys_core.asm"
+Finished building: "../source/sys_core.asm"
+ 
+Building file: "../source/sys_dma.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_dma.d_raw" --obj_directory="source"  "../source/sys_dma.c"
+Finished building: "../source/sys_dma.c"
+ 
+Building file: "../source/sys_intvecs.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_intvecs.d_raw" --obj_directory="source"  "../source/sys_intvecs.asm"
+Finished building: "../source/sys_intvecs.asm"
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+"../source/sys_main.c", line 90: warning #169-D: argument of type "uint8 (*)[8]" is incompatible with parameter of type "uint8 *const"
+Finished building: "../source/sys_main.c"
+ 
+Building file: "../source/sys_mpu.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_mpu.d_raw" --obj_directory="source"  "../source/sys_mpu.asm"
+Finished building: "../source/sys_mpu.asm"
+ 
+Building file: "../source/sys_pcr.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pcr.d_raw" --obj_directory="source"  "../source/sys_pcr.c"
+Finished building: "../source/sys_pcr.c"
+ 
+Building file: "../source/sys_phantom.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_phantom.d_raw" --obj_directory="source"  "../source/sys_phantom.c"
+Finished building: "../source/sys_phantom.c"
+ 
+Building file: "../source/sys_pmu.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmu.d_raw" --obj_directory="source"  "../source/sys_pmu.asm"
+Finished building: "../source/sys_pmu.asm"
+ 
+Building file: "../source/sys_pmm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmm.d_raw" --obj_directory="source"  "../source/sys_pmm.c"
+Finished building: "../source/sys_pmm.c"
+ 
+Building file: "../source/sys_startup.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+Finished building: "../source/sys_startup.c"
+ 
+Building file: "../source/sys_vim.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_vim.d_raw" --obj_directory="source"  "../source/sys_vim.c"
+Finished building: "../source/sys_vim.c"
+ 
+Building file: "../source/system.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+Finished building: "../source/system.c"
+ 
+Building file: "../source/sys_selftest.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+Finished building: "../source/sys_selftest.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./main.obj" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+error #10056: symbol "main" redefined: first defined in "./main.obj"; redefined in "./source/sys_main.obj"
+error #10010: errors encountered during linking; "Can Reception interrupt.out" not built
+ 
+>> Compilation failure
+makefile:179: recipe for target 'Can Reception interrupt.out' failed
+gmake[1]: *** [Can Reception interrupt.out] Error 1
+makefile:175: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./main.obj" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+error #10056: symbol "main" redefined: first defined in "./main.obj"; redefined in "./source/sys_main.obj"
+error #10010: errors encountered during linking; "Can Reception interrupt.out" not built
+ 
+>> Compilation failure
+makefile:179: recipe for target 'Can Reception interrupt.out' failed
+gmake[1]: *** [Can Reception interrupt.out] Error 1
+makefile:175: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/notification.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./main.obj" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+error #10056: symbol "main" redefined: first defined in "./main.obj"; redefined in "./source/sys_main.obj"
+error #10010: errors encountered during linking; "Can Reception interrupt.out" not built
+ 
+>> Compilation failure
+makefile:179: recipe for target 'Can Reception interrupt.out' failed
+gmake[1]: *** [Can Reception interrupt.out] Error 1
+makefile:175: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./main.obj" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+error #10056: symbol "main" redefined: first defined in "./main.obj"; redefined in "./source/sys_main.obj"
+ 
+ undefined              first referenced
+  symbol                    in file     
+ ---------              ----------------
+ canMessageNotification ./source/can.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Can Reception interrupt.out" not built
+ 
+>> Compilation failure
+makefile:179: recipe for target 'Can Reception interrupt.out' failed
+gmake[1]: *** [Can Reception interrupt.out] Error 1
+makefile:175: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building file: "../source/can.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/can.d_raw" --obj_directory="source"  "../source/can.c"
+Finished building: "../source/can.c"
+ 
+Building file: "../source/notification.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./main.obj" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+error #10056: symbol "main" redefined: first defined in "./main.obj"; redefined in "./source/sys_main.obj"
+error #10010: errors encountered during linking; "Can Reception interrupt.out" not built
+ 
+>> Compilation failure
+makefile:179: recipe for target 'Can Reception interrupt.out' failed
+gmake[1]: *** [Can Reception interrupt.out] Error 1
+makefile:175: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/adc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/adc.d_raw" --obj_directory="source"  "../source/adc.c"
+Finished building: "../source/adc.c"
+ 
+Building file: "../source/can.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/can.d_raw" --obj_directory="source"  "../source/can.c"
+Finished building: "../source/can.c"
+ 
+Building file: "../source/crc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/crc.d_raw" --obj_directory="source"  "../source/crc.c"
+Finished building: "../source/crc.c"
+ 
+Building file: "../source/dabort.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dabort.d_raw" --obj_directory="source"  "../source/dabort.asm"
+Finished building: "../source/dabort.asm"
+ 
+Building file: "../source/dcc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dcc.d_raw" --obj_directory="source"  "../source/dcc.c"
+Finished building: "../source/dcc.c"
+ 
+Building file: "../source/dmm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dmm.d_raw" --obj_directory="source"  "../source/dmm.c"
+Finished building: "../source/dmm.c"
+ 
+Building file: "../source/emac.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/emac.d_raw" --obj_directory="source"  "../source/emac.c"
+Finished building: "../source/emac.c"
+ 
+Building file: "../source/emif.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/emif.d_raw" --obj_directory="source"  "../source/emif.c"
+Finished building: "../source/emif.c"
+ 
+Building file: "../source/errata_SSWF021_45.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/errata_SSWF021_45.d_raw" --obj_directory="source"  "../source/errata_SSWF021_45.c"
+Finished building: "../source/errata_SSWF021_45.c"
+ 
+Building file: "../source/esm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/esm.d_raw" --obj_directory="source"  "../source/esm.c"
+Finished building: "../source/esm.c"
+ 
+Building file: "../source/gio.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/gio.d_raw" --obj_directory="source"  "../source/gio.c"
+Finished building: "../source/gio.c"
+ 
+Building file: "../source/het.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/het.d_raw" --obj_directory="source"  "../source/het.c"
+Finished building: "../source/het.c"
+ 
+Building file: "../source/mdio.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/mdio.d_raw" --obj_directory="source"  "../source/mdio.c"
+Finished building: "../source/mdio.c"
+ 
+Building file: "../source/i2c.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/i2c.d_raw" --obj_directory="source"  "../source/i2c.c"
+Finished building: "../source/i2c.c"
+ 
+Building file: "../source/mibspi.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/mibspi.d_raw" --obj_directory="source"  "../source/mibspi.c"
+Finished building: "../source/mibspi.c"
+ 
+Building file: "../source/notification.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building file: "../source/phy_dp83640.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/phy_dp83640.d_raw" --obj_directory="source"  "../source/phy_dp83640.c"
+Finished building: "../source/phy_dp83640.c"
+ 
+Building file: "../source/pinmux.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pinmux.d_raw" --obj_directory="source"  "../source/pinmux.c"
+Finished building: "../source/pinmux.c"
+ 
+Building file: "../source/pom.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pom.d_raw" --obj_directory="source"  "../source/pom.c"
+Finished building: "../source/pom.c"
+ 
+Building file: "../source/rtp.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/rtp.d_raw" --obj_directory="source"  "../source/rtp.c"
+Finished building: "../source/rtp.c"
+ 
+Building file: "../source/rti.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/rti.d_raw" --obj_directory="source"  "../source/rti.c"
+Finished building: "../source/rti.c"
+ 
+Building file: "../source/sci.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sci.d_raw" --obj_directory="source"  "../source/sci.c"
+Finished building: "../source/sci.c"
+ 
+Building file: "../source/sys_core.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_core.d_raw" --obj_directory="source"  "../source/sys_core.asm"
+Finished building: "../source/sys_core.asm"
+ 
+Building file: "../source/spi.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/spi.d_raw" --obj_directory="source"  "../source/spi.c"
+Finished building: "../source/spi.c"
+ 
+Building file: "../source/sys_intvecs.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_intvecs.d_raw" --obj_directory="source"  "../source/sys_intvecs.asm"
+Finished building: "../source/sys_intvecs.asm"
+ 
+Building file: "../source/sys_dma.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_dma.d_raw" --obj_directory="source"  "../source/sys_dma.c"
+Finished building: "../source/sys_dma.c"
+ 
+Building file: "../source/sys_mpu.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_mpu.d_raw" --obj_directory="source"  "../source/sys_mpu.asm"
+Finished building: "../source/sys_mpu.asm"
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building file: "../source/sys_phantom.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_phantom.d_raw" --obj_directory="source"  "../source/sys_phantom.c"
+Finished building: "../source/sys_phantom.c"
+ 
+Building file: "../source/sys_pcr.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pcr.d_raw" --obj_directory="source"  "../source/sys_pcr.c"
+Finished building: "../source/sys_pcr.c"
+ 
+Building file: "../source/sys_pmm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmm.d_raw" --obj_directory="source"  "../source/sys_pmm.c"
+Finished building: "../source/sys_pmm.c"
+ 
+Building file: "../source/sys_pmu.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmu.d_raw" --obj_directory="source"  "../source/sys_pmu.asm"
+Finished building: "../source/sys_pmu.asm"
+ 
+Building file: "../source/sys_startup.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+Finished building: "../source/sys_startup.c"
+ 
+Building file: "../source/sys_vim.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_vim.d_raw" --obj_directory="source"  "../source/sys_vim.c"
+Finished building: "../source/sys_vim.c"
+ 
+Building file: "../source/sys_selftest.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+Finished building: "../source/sys_selftest.c"
+ 
+Building file: "../source/system.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+Finished building: "../source/system.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/notification.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/adc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/adc.d_raw" --obj_directory="source"  "../source/adc.c"
+Finished building: "../source/adc.c"
+ 
+Building file: "../source/can.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/can.d_raw" --obj_directory="source"  "../source/can.c"
+Finished building: "../source/can.c"
+ 
+Building file: "../source/crc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/crc.d_raw" --obj_directory="source"  "../source/crc.c"
+Finished building: "../source/crc.c"
+ 
+Building file: "../source/dabort.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dabort.d_raw" --obj_directory="source"  "../source/dabort.asm"
+Finished building: "../source/dabort.asm"
+ 
+Building file: "../source/dcc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dcc.d_raw" --obj_directory="source"  "../source/dcc.c"
+Finished building: "../source/dcc.c"
+ 
+Building file: "../source/dmm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dmm.d_raw" --obj_directory="source"  "../source/dmm.c"
+Finished building: "../source/dmm.c"
+ 
+Building file: "../source/emac.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/emac.d_raw" --obj_directory="source"  "../source/emac.c"
+Finished building: "../source/emac.c"
+ 
+Building file: "../source/emif.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/emif.d_raw" --obj_directory="source"  "../source/emif.c"
+Finished building: "../source/emif.c"
+ 
+Building file: "../source/errata_SSWF021_45.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/errata_SSWF021_45.d_raw" --obj_directory="source"  "../source/errata_SSWF021_45.c"
+Finished building: "../source/errata_SSWF021_45.c"
+ 
+Building file: "../source/esm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/esm.d_raw" --obj_directory="source"  "../source/esm.c"
+Finished building: "../source/esm.c"
+ 
+Building file: "../source/gio.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/gio.d_raw" --obj_directory="source"  "../source/gio.c"
+Finished building: "../source/gio.c"
+ 
+Building file: "../source/het.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/het.d_raw" --obj_directory="source"  "../source/het.c"
+Finished building: "../source/het.c"
+ 
+Building file: "../source/i2c.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/i2c.d_raw" --obj_directory="source"  "../source/i2c.c"
+Finished building: "../source/i2c.c"
+ 
+Building file: "../source/mdio.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/mdio.d_raw" --obj_directory="source"  "../source/mdio.c"
+Finished building: "../source/mdio.c"
+ 
+Building file: "../source/notification.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building file: "../source/phy_dp83640.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/phy_dp83640.d_raw" --obj_directory="source"  "../source/phy_dp83640.c"
+Finished building: "../source/phy_dp83640.c"
+ 
+Building file: "../source/mibspi.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/mibspi.d_raw" --obj_directory="source"  "../source/mibspi.c"
+Finished building: "../source/mibspi.c"
+ 
+Building file: "../source/pinmux.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pinmux.d_raw" --obj_directory="source"  "../source/pinmux.c"
+Finished building: "../source/pinmux.c"
+ 
+Building file: "../source/pom.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pom.d_raw" --obj_directory="source"  "../source/pom.c"
+Finished building: "../source/pom.c"
+ 
+Building file: "../source/rti.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/rti.d_raw" --obj_directory="source"  "../source/rti.c"
+Finished building: "../source/rti.c"
+ 
+Building file: "../source/rtp.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/rtp.d_raw" --obj_directory="source"  "../source/rtp.c"
+Finished building: "../source/rtp.c"
+ 
+Building file: "../source/sci.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sci.d_raw" --obj_directory="source"  "../source/sci.c"
+Finished building: "../source/sci.c"
+ 
+Building file: "../source/spi.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/spi.d_raw" --obj_directory="source"  "../source/spi.c"
+Finished building: "../source/spi.c"
+ 
+Building file: "../source/sys_core.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_core.d_raw" --obj_directory="source"  "../source/sys_core.asm"
+Finished building: "../source/sys_core.asm"
+ 
+Building file: "../source/sys_dma.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_dma.d_raw" --obj_directory="source"  "../source/sys_dma.c"
+Finished building: "../source/sys_dma.c"
+ 
+Building file: "../source/sys_intvecs.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_intvecs.d_raw" --obj_directory="source"  "../source/sys_intvecs.asm"
+Finished building: "../source/sys_intvecs.asm"
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building file: "../source/sys_mpu.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_mpu.d_raw" --obj_directory="source"  "../source/sys_mpu.asm"
+Finished building: "../source/sys_mpu.asm"
+ 
+Building file: "../source/sys_pcr.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pcr.d_raw" --obj_directory="source"  "../source/sys_pcr.c"
+Finished building: "../source/sys_pcr.c"
+ 
+Building file: "../source/sys_phantom.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_phantom.d_raw" --obj_directory="source"  "../source/sys_phantom.c"
+Finished building: "../source/sys_phantom.c"
+ 
+Building file: "../source/sys_pmm.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmm.d_raw" --obj_directory="source"  "../source/sys_pmm.c"
+Finished building: "../source/sys_pmm.c"
+ 
+Building file: "../source/sys_pmu.asm"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmu.d_raw" --obj_directory="source"  "../source/sys_pmu.asm"
+Finished building: "../source/sys_pmu.asm"
+ 
+Building file: "../source/sys_selftest.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+Finished building: "../source/sys_selftest.c"
+ 
+Building file: "../source/sys_startup.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+Finished building: "../source/sys_startup.c"
+ 
+Building file: "../source/sys_vim.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_vim.d_raw" --obj_directory="source"  "../source/sys_vim.c"
+Finished building: "../source/sys_vim.c"
+ 
+Building file: "../source/system.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+Finished building: "../source/system.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/notification.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+ 
+>> Compilation failure
+source/subdir_rules.mk:9: recipe for target 'source/sys_main.obj' failed
+"../source/sys_main.c", line 93: error #29: expected an expression
+"../source/sys_main.c", line 94: error #29: expected an expression
+2 errors detected in the compilation of "../source/sys_main.c".
+gmake: *** [source/sys_main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+"../source/sys_main.c", line 95: warning #176-D: expression has no effect
+Finished building: "../source/sys_main.c"
+ 
+Building file: "../source/can.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/can.d_raw" --obj_directory="source"  "../source/can.c"
+Finished building: "../source/can.c"
+ 
+Building file: "../source/notification.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building file: "../source/sys_startup.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+Finished building: "../source/sys_startup.c"
+ 
+Building file: "../source/system.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+Finished building: "../source/system.c"
+ 
+Building file: "../source/sys_selftest.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+Finished building: "../source/sys_selftest.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+Building file: "../source/sys_main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt" --include_path="E:/TMS570LS3137/Can reception interrupt/Can Reception interrupt/include" --include_path="C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building target: "Can Reception interrupt.out"
+Invoking: Arm Linker
+"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"Can Reception interrupt.map" --heap_size=0x800 --stack_size=0x800 -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1210/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Can Reception interrupt_linkInfo.xml" --rom_model --be32 -o "Can Reception interrupt.out" "./source/adc.obj" "./source/can.obj" "./source/crc.obj" "./source/dabort.obj" "./source/dcc.obj" "./source/dmm.obj" "./source/emac.obj" "./source/emif.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/gio.obj" "./source/het.obj" "./source/i2c.obj" "./source/mdio.obj" "./source/mibspi.obj" "./source/notification.obj" "./source/phy_dp83640.obj" "./source/pinmux.obj" "./source/pom.obj" "./source/rti.obj" "./source/rtp.obj" "./source/sci.obj" "./source/spi.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "Can Reception interrupt.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Can Reception interrupt ****
+
+"C:\\ti\\ccs1210\\ccs\\utils\\bin\\gmake" -k -j 6 all -O 
+ 
+gmake[1]: 'Can Reception interrupt.out' is up to date.
+
+**** Build Finished ****
